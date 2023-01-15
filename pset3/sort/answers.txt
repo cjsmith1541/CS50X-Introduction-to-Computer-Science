@@ -1,0 +1,14 @@
+sort1 uses: Bubble sort
+
+How do you know?: Due to it being slow in the random sort which is a large big O but is fast
+processing the already sorted list showing a good omega.
+
+sort2 uses: Merge sort
+
+How do you know?: This is due to it being the overall fastest with a big O and omega of n log n
+especsically in the completely randon data set.
+
+sort3 uses: Selection sort
+
+How do you know?: this one is the most consistent over every type of data showing its big O and
+omega of n2

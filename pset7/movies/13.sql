@@ -1,0 +1,1 @@
+SELECT DISTINCT(name) FROM people, stars WHERE people.id = stars.person_id AND movie_id IN (SELECT movie_id FROM people, stars WHERE people.id = stars.person_id AND person_id = (SELECT id FROM people WHERE name = "Kevin Bacon" AND birth = 1958)) AND NOT name = "Kevin Bacon";
